@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    background-size: 100% 100%;
+}
+
+.bg-image{
+    background-image: url("wallpaper.jpg");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(15, 11, 11);
+    background-color: rgba(29, 8, 8, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 80%;
+    padding: 100px;
+    text-align: center;  
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 5px;
+}
+
+.container{
+    padding-top: 30px;
+    background-color: rgb(218, 207, 193);
+    width: 27%;
+    padding-bottom: 30px;
+    border-style: hidden;
+}
